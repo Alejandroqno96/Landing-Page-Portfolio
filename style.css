@@ -1,0 +1,42 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.imagen { 
+    height: 45px;
+    width: 45px;
+}
+
+.items { 
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+
+}
+
+.items a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.items a:hover {
+   color: lightsalmon; 
+}
+
+.items li:hover {
+    transform: translateY(-6px);     
+    transition: transform 0.4s ease;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between; 
+    border: solid rosybrown 1px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
